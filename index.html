@@ -1,23 +1,62 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trisha Panicker</title>
+    <title>Reporting & Writing | Sofia Ayala Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, .serif { font-family: 'Playfair Display', serif; }
+    </style>
 </head>
-<body class="bg-gray-900 text-white font-sans">
-    <div class="min-h-screen flex flex-col items-center justify-center">
-        <header class="text-center">
-            <h1 class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                Hello, this is trisha!
-            </h1>
-            <p class="text-gray-400 text-xl mb-8">This site is hosted on GitHub Pages.</p>
-            <div class="flex gap-4 justify-center">
-                <a href="#" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-full transition">Projects</a>
-                <a href="#" class="px-6 py-2 border border-gray-600 hover:bg-gray-800 rounded-full transition">Contact</a>
+<body class="bg-white text-gray-900">
+
+    <div class="max-w-7xl mx-auto px-6 py-12 lg:flex gap-16">
+        
+        <aside class="lg:w-1/4 mb-12 lg:mb-0">
+            <h1 class="text-3xl font-light tracking-widest uppercase mb-8">Sofia Ayala</h1>
+            <nav class="space-y-4 text-sm tracking-wide uppercase">
+                <a href="#" class="block hover:italic">Home</a>
+                <a href="#" class="block font-bold border-b border-black pb-1 w-fit">Reporting & Writing</a>
+                <a href="#" class="block hover:italic">Multimedia</a>
+                <a href="#" class="block hover:italic">About</a>
+                <a href="#" class="block hover:italic">Resume</a>
+            </nav>
+        </aside>
+
+        <main class="lg:w-3/4">
+            <header class="mb-12 border-b border-gray-100 pb-8">
+                <h2 class="text-5xl italic font-light mb-4">Reporting & Writing</h2>
+                <p class="text-gray-500 max-w-2xl leading-relaxed">
+                    A collection of long-form features, breaking news, and investigative pieces exploring culture, social issues, and community narratives.
+                </p>
+            </header>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden bg-gray-100 aspect-[4/3] mb-4">
+                        <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&q=80&w=800" alt="News" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500">
+                    </div>
+                    <h3 class="text-2xl mb-2 group-hover:underline decoration-1">The Future of Digital Ethics</h3>
+                    <p class="text-sm text-gray-500 uppercase tracking-tighter mb-3">Published in The Daily Herald • 2024</p>
+                    <p class="text-gray-600 line-clamp-3 font-light">An in-depth look at how local communities are navigating the intersection of privacy and emerging technology in public spaces...</p>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden bg-gray-100 aspect-[4/3] mb-4">
+                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=800" alt="Journalism" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500">
+                    </div>
+                    <h3 class="text-2xl mb-2 group-hover:underline decoration-1">Voices of the Mission District</h3>
+                    <p class="text-sm text-gray-500 uppercase tracking-tighter mb-3">Feature Story • 2023</p>
+                    <p class="text-gray-600 line-clamp-3 font-light">A multi-part series documenting the changing landscape of San Francisco's historic neighborhoods through the eyes of its oldest residents.</p>
+                </div>
+
             </div>
-        </header>
+        </main>
     </div>
+
 </body>
 </html>
